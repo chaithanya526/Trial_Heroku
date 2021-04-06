@@ -9,9 +9,9 @@ import org.springframework.web.bind.annotation.RestController;
 public class EnteryClass {
 	
 	//@RequestMapping(value="/",method=RequestMethod.GET)
-	@GetMapping(value="/hello")
+	@GetMapping(value="/")
 	public String hello(){
-		return "Hello World wirtt get mapping";
+		return "Welcome Mr Chaithanya kumar";
 	}
 
 }
